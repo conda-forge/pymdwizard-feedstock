@@ -1,12 +1,13 @@
-{% set version = "2.0.0" %}
+{% set version = "2.0.1" %}
+{% set commit = "0f1f82cdb9e9540d9c73be46034aaa4f89f82235" %}
 
 package:
   name: pymdwizard
   version: {{ version }}
 
 source:
-  url: https://github.com/usgs/fort-pymdwizard/archive/v{{ version }}.tar.gz
-  sha256: 9dc9dcd6fed6e0fa67d04bc2a28eb164abcfe87ecd359aa42c92c00878521369
+  url: https://github.com/usgs/fort-pymdwizard/archive/{{ commit }}.tar.gz
+  sha256: e864dd321ac40b5f368bbc6b10b85ae74af6d6d09fdab9ad8687ed88fa536d47
 
 build:
   number: 0
