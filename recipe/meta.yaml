@@ -9,14 +9,13 @@ source:
   sha256: c4d0476ad16a2ddf47a89e048b9e42a8f29e0156c9ef5e77bd9faae2bae62a13 
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
   build:
     - python
-    - setuptools
     - pip
   run:
     - python
@@ -25,7 +24,7 @@ requirements:
     - defusedxml
     - pandas
     - jupyter
-    - gdal 2.1.*
+    - gdal 2.2.*
     - geopandas
     - pyqt >=5.0
     - xlrd
