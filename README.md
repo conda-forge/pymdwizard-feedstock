@@ -14,12 +14,15 @@ Summary: A CSDGM Metadata Editor.
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/pymdwizard-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/pymdwizard-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/pymdwizard-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/pymdwizard-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pymdwizard/badges/version.svg)](https://anaconda.org/conda-forge/pymdwizard)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pymdwizard/badges/downloads.svg)](https://anaconda.org/conda-forge/pymdwizard)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-pymdwizard-green.svg)](https://anaconda.org/conda-forge/pymdwizard) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/pymdwizard.svg)](https://anaconda.org/conda-forge/pymdwizard) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/pymdwizard.svg)](https://anaconda.org/conda-forge/pymdwizard) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/pymdwizard.svg)](https://anaconda.org/conda-forge/pymdwizard) |
 
 Installing pymdwizard
 =====================
