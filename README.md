@@ -3,11 +3,11 @@ About pymdwizard
 
 Home: https://github.com/usgs/fort-pymdwizard
 
-Package license: CC0 4.0
+Package license: CC0-4.0
 
 Feedstock license: BSD 3-Clause
 
-Summary: A CSDGM Metadata Editor.
+Summary: A CSDGM Metadata Editor
 
 
 
