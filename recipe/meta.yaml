@@ -11,7 +11,7 @@ source:
 build:
   number: 1
   noarch: python
-  script: python -m pip install --no-deps --ignore-installed .
+  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
 requirements:
   build:
@@ -24,9 +24,9 @@ requirements:
     - defusedxml
     - pandas
     - jupyter
-    - gdal 2.2.*
+    - gdal
     - geopandas
-    - pyqt >=5.0
+    - pyqt
     - xlrd
     - python-docx
     - habanero
@@ -37,9 +37,9 @@ test:
 
 about:
   home: https://github.com/usgs/fort-pymdwizard
-  license: CC0 4.0
+  license: CC0-4.0
   license_file: LICENSE.md
-  summary: 'A CSDGM Metadata Editor.'
+  summary: 'A CSDGM Metadata Editor'
 
 extra:
   recipe-maintainers:
